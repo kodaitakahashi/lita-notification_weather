@@ -2,6 +2,8 @@
 module Lita
   module Handlers
     class NotificationWeather < Handler
+      require 'json'
+      require 'open-uri'
       route /^w_now/, :get_Weather, help:{"w_now" => "Rain notification"}
 
       def get_Weather(response)

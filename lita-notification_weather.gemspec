@@ -3,10 +3,10 @@ Gem::Specification.new do |spec|
   spec.version       = "0.1.0"
   spec.authors       = ["kodaitakahashi"]
   spec.email         = ["kodaitakahashi.kt@gmail.com"]
-  spec.description   = "TODO: Add a description"
-  spec.summary       = "TODO: Add a summary"
-  spec.homepage      = "TODO: Add a homepage"
-  spec.license       = "TODO: Add a license"
+  spec.description   = "Notifcation of Daito Weather"
+  spec.summary       = "Slack suppoly. lita"
+  spec.homepage      = "https://github.com/kodaitakahashi/lita-notification_weather"
+  spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "handler" }
 
   spec.files         = `git ls-files`.split($/)
@@ -21,4 +21,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rack-test"
   spec.add_development_dependency "rspec", ">= 3.0.0"
+  spec.add_development_dependency "json"
+  spec.add_development_dependency "open-uri"
 end
