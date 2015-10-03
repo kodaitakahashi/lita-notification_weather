@@ -1,26 +1,20 @@
 # lita-notification_weather
 
-Slack suppoly
-Notification of Daito weather
+Slack専用のGem
+大阪市大東市の天気がわかる
 
 
 ## Installation
-
-Add lita-notification_weather to your Lita instance's Gemfile:
-json
-open-uri
-
 
 ``` ruby
 gem "lita-notification_weather" 
 ```
 
-## Configuration
-
-TODO: Describe any configuration attributes the plugin exposes.
-
 ## Usage
 
 ***COMAND***
-w_now
-=> Notification of Daito weather
+@lita w_now
+=> 大阪市大東市の天気がわかる
+
+## Lisence
+MIT
